@@ -19,12 +19,25 @@ movie=[title,genre,length,cast,director,admin1,language,timing,shows,first_show,
 n=len(movie)
 
 def book():
-    pass
+    print("1. Book Tickets ")
+    print("******Welcome User1*******")
+    print("number of tickets :",end=" ")
+    nieo=input()
+    users()
+
 
 def cancel():
-    pass
+    print("2.Cancel Tickets")
+    print("******Welcome User1*******")
+    print("no of tickets to be canceled:",end=" ")
+    nei=input()
+    users()
 def ratings():
-    pass
+    print("3.Give User Rating")
+    print("******Welcome User1*******")
+    print("Please enter rating for the following movie:",end=" ")
+    nai=input()
+    users()
 def display(qpn):
     qpn=qpn-1
     for i in movie:
